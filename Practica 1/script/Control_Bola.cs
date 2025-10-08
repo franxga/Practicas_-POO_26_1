@@ -12,7 +12,6 @@ public class Control_Bola : MonoBehaviour
 
 {
 
-    public Transform CamaraPrincipal;
 
     public Rigidbody rb;
 
@@ -89,14 +88,14 @@ public class Control_Bola : MonoBehaviour
 
 
 
-    /* 2.mover la bola hacia los lados */
+    // 2.mover la bola hacia los lados /
 
     transform.Translate(Vector3.right * inputHorizontal * velocidadDeApuntado * Time.deltaTime);
 
 
 
 
-    /* 3, Delimitar el movimiento de la bola*/
+    // 3, Delimitar el movimiento de la bola/
 
     Vector3 posicionActual = transform.position;
 
@@ -111,21 +110,11 @@ public class Control_Bola : MonoBehaviour
 
 
     void Lanzar()
-
     {
-
         haSidoLanzada = true;
-
+        // Aplicamos la fuerza de forma inmediata para el lanzamiento
         rb.AddForce(Vector3.forward * fuerzaDeLanzamiento);
-
-        if (CamaraPrincipal != null)
-
-        {
-
-            CamaraPrincipal.SetParent(transform);
-
-        }
-
+        // Ya no se usa SetParent aquí. El script de la cámara se encargará.
     }
 
 }// Bienvenido a la entrada al infierno
