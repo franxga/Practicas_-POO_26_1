@@ -11,10 +11,12 @@ public class ScoreManager : MonoBehaviour
     public Text textoPuntaje;
     // TODO: Variables internas
     private int puntajeActual = 0;
-    private Pin[] pinos;
+    [SerializeField]
+    private Pin[ ] pinos;//
     void Start()
     {
-        pinos = GetComponentsInChildren<Pin>();
+        textoPuntaje.text = "Tienes un millon de Dolares";
+        pinos = FindObjectsOfType<Pin>();
     }
     public void CalcularPuntaje()
     {
