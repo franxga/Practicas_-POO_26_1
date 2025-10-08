@@ -200,6 +200,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -222,6 +227,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 320698938}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 320698940}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
 --- !u!1001 &38628405
 PrefabInstance:
@@ -301,6 +310,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -323,6 +337,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1908556163}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1908556165}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
 --- !u!1 &53690447 stripped
 GameObject:
@@ -378,6 +396,120 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &53690450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53690447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &57644944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 57644948}
+  - component: {fileID: 57644947}
+  - component: {fileID: 57644946}
+  - component: {fileID: 57644945}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &57644945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57644944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &57644946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57644944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &57644947
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57644944}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &57644948
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57644944}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1480150088}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &137187209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -456,6 +588,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -478,6 +615,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 253215546}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 253215548}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
 --- !u!1001 &194269175
 PrefabInstance:
@@ -562,6 +703,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -584,6 +730,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 623325700}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 623325702}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
 --- !u!1 &253215545 stripped
 GameObject:
@@ -639,6 +789,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &253215548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253215545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &256495319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -717,6 +879,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -739,6 +906,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1703898499}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1703898501}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
 --- !u!1 &286164676 stripped
 GameObject:
@@ -794,6 +965,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &286164679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286164676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &320698937 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
@@ -848,6 +1031,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &320698940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320698937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,7 +1132,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.12167579, y: 0.017810099, z: 0.015172918, w: -0.9922941}
-  m_LocalPosition: {x: -0.4000001, y: -7.7, z: -30}
+  m_LocalPosition: {x: -0.24, y: -7.17, z: -33.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1023,12 +1218,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 303e30c1fbb37a049a20b972b61982c5, type: 3}
+  m_Script: {fileID: 11500000, guid: a755d25a5435fcf4a998a969e110eec6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objetivo: {fileID: 349196102}
-  offset: {x: 0, y: 1.5, z: -2.5}
-  velocidadSuavizado: 0.125
+  offset: {x: 0, y: 1.5, z: -10}
 --- !u!1 &349196097
 GameObject:
   m_ObjectHideFlags: 0
@@ -1045,7 +1239,7 @@ GameObject:
   - component: {fileID: 349196103}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1175,11 +1369,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7677affb94bd6a4ea67e32d16db2f31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 349196098}
+  fuerzaDeLanzamiento: 10000
   velocidadDeApuntado: 5
   limiteIzquierdo: -2
   limiteDerecho: 2
-  fuerzaDeLanzamiento: 10000
+  cameraFollow: {fileID: 330585549}
+  scoreManager: {fileID: 1540333298}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1381,6 +1576,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -1403,6 +1603,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1845135793}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1845135795}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
 --- !u!1 &617081991
 GameObject:
@@ -1588,6 +1792,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung ORIGINAL
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -1606,6 +1815,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1096109747}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1096109749}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1096109748}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
 --- !u!1 &623325699 stripped
 GameObject:
@@ -1661,6 +1878,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &623325702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623325699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &681536908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1739,6 +1968,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -1761,6 +1995,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 786223999}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 786224001}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
 --- !u!1 &684801041 stripped
 GameObject:
@@ -1816,6 +2054,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &684801044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684801041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &786223998 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
@@ -1870,6 +2120,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &786224001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786223998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &824170336 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
@@ -1924,6 +2186,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &824170339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824170336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -2051,6 +2325,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -2073,6 +2352,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 684801042}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 684801044}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
 --- !u!1001 &908977799
 PrefabInstance:
@@ -2152,6 +2435,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -2174,6 +2462,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1088994401}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1088994403}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
 --- !u!1 &1035650661 stripped
 GameObject:
@@ -2229,6 +2521,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1035650664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035650661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1088994400 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
@@ -2283,6 +2587,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1088994403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088994400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1096109744 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
@@ -2310,6 +2626,45 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.8, y: 1.91, z: 0.59}
   m_Center: {x: 0, y: 1.04, z: 0}
+--- !u!54 &1096109748
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096109744}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1096109749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096109744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1293016571 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
@@ -2364,6 +2719,86 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1293016574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293016571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1362121578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1362121581}
+  - component: {fileID: 1362121580}
+  - component: {fileID: 1362121579}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1362121579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362121578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1362121580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362121578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1362121581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362121578}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1366135549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2442,6 +2877,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -2464,7 +2904,90 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 824170337}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 824170339}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
+--- !u!1 &1480150087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1480150088}
+  - component: {fileID: 1480150090}
+  - component: {fileID: 1480150089}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1480150088
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480150087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.7}
+  m_LocalScale: {x: 3.1832, y: 3.1832, z: 3.1832}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 57644948}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0012169, y: -285.5823}
+  m_SizeDelta: {x: 196.34, y: 25.7112}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1480150089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480150087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 10
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 96
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: .
+--- !u!222 &1480150090
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480150087}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1531685769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2543,6 +3066,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -2565,7 +3093,57 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 286164677}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 286164679}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
+--- !u!1 &1540333297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1540333299}
+  - component: {fileID: 1540333298}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1540333298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540333297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd92a182b858dc48b1a27c94424490f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoPuntaje: {fileID: 1480150089}
+  pinos: []
+--- !u!4 &1540333299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540333297}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -23.107552, y: -9.622506, z: -10.621713}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1567886854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2649,6 +3227,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -2671,6 +3254,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1933467903}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1933467905}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
 --- !u!1 &1703898498 stripped
 GameObject:
@@ -2726,6 +3313,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1703898501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703898498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1761044549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2804,6 +3403,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -2826,6 +3430,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1293016572}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1293016574}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
 --- !u!1 &1845135792 stripped
 GameObject:
@@ -2881,6 +3489,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1845135795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845135792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1899885114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2964,6 +3584,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -2986,6 +3611,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 53690448}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 53690450}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
 --- !u!1 &1908556162 stripped
 GameObject:
@@ -3041,6 +3670,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1908556165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908556162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1933467902 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
@@ -3095,6 +3736,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1933467905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933467902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8fd71b48bbc3146a5f474e4c599c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1970119793
 GameObject:
   m_ObjectHideFlags: 0
@@ -3279,6 +3932,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung OG (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: e5c2c67c73247534fa7a108c4e4850b2,
         type: 3}
       propertyPath: m_Controller
@@ -3301,6 +3959,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1035650662}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5c2c67c73247534fa7a108c4e4850b2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1035650664}
   m_SourcePrefab: {fileID: 100100000, guid: e5c2c67c73247534fa7a108c4e4850b2, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -3328,3 +3990,6 @@ SceneRoots:
   - {fileID: 194269175}
   - {fileID: 1567886854}
   - {fileID: 578157626}
+  - {fileID: 1540333299}
+  - {fileID: 57644948}
+  - {fileID: 1362121581}
